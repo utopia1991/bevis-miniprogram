@@ -31,8 +31,8 @@
 }
 
 .profile .detail .relationship {
-  height:66rpx;
-  line-height:66rpx;
+  height: 66rpx;
+  line-height: 66rpx;
 }
 
 .profile .detail .basic-info .uid {
@@ -77,4 +77,37 @@
   display: block;
   transform: scaleY(0.5);
   margin-top: 5px;
+}
+
+.collection {
+  font-size: 0;
+  background: #fff;
+}
+
+.collection .item {
+  display: inline-block;
+  width: 24.99%;
+  height: 100px;
+  text-align: center;
+}
+
+.collection .item navigator {
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.collection .item image {
+  display: block;
+  margin: 30px auto 10px;
+  width: 26px;
+  height: 26px;
+}
+
+.collection .hr:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #dfdfdf;
+  display: block;
+  transform: scaleY(0.5);
 }

@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/index",
     "pages/movie/index",
     "pages/movie/page/darkestHour",
     "pages/read/index",
-    "pages/about/me"
+    "pages/about/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,21 +18,21 @@
     "list": [
       {
         "pagePath": "pages/movie/index",
-        "iconPath": "icon/video_fill.png",
-        "selectedIconPath": "icon/video_fill_select.png",
+        "iconPath": "static/video_fill.png",
+        "selectedIconPath": "static/video_fill_select.png",
         "text": "电影"
       },
       {
         "pagePath": "pages/read/index",
-        "iconPath": "icon/createtask_fill.png",
-        "selectedIconPath": "icon/createtask_fill_select.png",
+        "iconPath": "static/createtask_fill.png",
+        "selectedIconPath": "static/createtask_fill_select.png",
         "text": "读书"
       },
       {
-        "pagePath": "pages/about/me",
-        "iconPath": "icon/addressbook_fill.png",
-        "selectedIconPath": "icon/addressbook_fill_select.png",
-        "text": "关于"
+        "pagePath": "pages/about/index",
+        "iconPath": "static/addressbook_fill.png",
+        "selectedIconPath": "static/addressbook_fill_select.png",
+        "text": "我的"
       }
     ],
     "borderStyle": "black"

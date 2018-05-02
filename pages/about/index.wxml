@@ -14,3 +14,14 @@
     </view>
   </view>
 </view>
+
+<view class="collection">
+  <ul>
+    <li class="item" wx:for="{{collection}}" wx:for-item="item" wx:key="">
+      <navigator url="{{item.url}}">
+        <image src="{{item.icon}}"></image>
+        <span>{{item.title}}</span>
+      </navigator>
+    </li>
+  </ul>
+</view>

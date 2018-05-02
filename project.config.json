@@ -46,8 +46,8 @@
 				},
 				{
 					"id": -1,
-					"name": "关于",
-					"pathName": "pages/about/me"
+					"name": "我的",
+					"pathName": "pages/about/index"
 				}
 			]
 		}
