@@ -1,0 +1,210 @@
+.scroll {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  white-space: nowrap;
+  margin-bottom: 40rpx;
+}
+
+.scroll .scroll-title {
+  color: #111;
+  width: 96%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 0 2%;
+}
+
+.scroll .scroll-title-name {
+  float: left;
+}
+
+.scroll .scroll-more {
+  color: #42bd56;
+  float: right;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+  width: 280rpx;
+  text-align: center;
+  height: 430rpx;
+  margin-right: 20rpx;
+}
+
+.item:last-child {
+  margin-right: 0rpx;
+}
+
+.item-poster {
+  width: 100%;
+  height: 88%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.item:not(.item__celebrity) .item-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item__movie .item-title {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.item-title {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 0.4rem;
+  height: 2rem;
+}
+
+.hot {
+  width: 96%;
+  height: 430rpx;
+  margin: 0 2%;
+}
+
+.hot-item-poster {
+  height: 400rpx;
+  width: 300rpx;
+  float: left;
+  margin-right: 30rpx;
+}
+
+.hot-item-content {
+  overflow-x: hidden;
+}
+
+.hot-item-title {
+  font-size: 44rpx;
+  text-overflow: ellipsis;
+}
+
+.hot-item-desc {
+  display: block;
+  width: 96%;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  font-weight: 300;
+  color: #9b9b9b;
+  height: 296rpx;
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.hot-scroll {
+  width: 96%;
+  margin: 0 2%;
+}
+
+.card {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 20px auto;
+}
+
+.card-title {
+  width: 96%;
+  margin: 0 2%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.card-list {
+  padding: 1.12rem 0 1.88rem;
+  color: #eee;
+  font-size: 32rpx;
+  overflow: hidden;
+}
+
+.card-list li:nth-child(even) {
+  border-right: none;
+  padding-left: 40rpx;
+}
+
+.card-list li {
+  width: 40.5%;
+  border-top: solid 1px #eee;
+  border-right: solid 1px #eee;
+  float: left;
+  padding-right: 40rpx;
+  height: 100rpx;
+  padding-left: 20rpx;
+}
+
+.card-list .card-link {
+  width: 100%;
+  float: left;
+  line-height: 100rpx;
+  color: #42bd56;
+}
+
+.card-list .card-arrow {
+  color: #ccc;
+  float: right;
+  font-weight: bold;
+  border-right: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: rotate(-45deg);
+  margin-top: 1rem;
+}
+
+.interests {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.item-interests {
+  margin: 0 20rpx 20rpx 0;
+  font-size: 30rpx;
+  display: inline-block;
+  border-radius: 10rpx;
+  border: 1px solid;
+  vertical-align: middle;
+  text-align: center;
+  padding: 25rpx 40rpx;
+}
+
+.download-app {
+  text-align: center;
+  font-size: 30rpx;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.download-app .info {
+  margin: 100rpx 0 30rpx;
+  overflow-x: hidden;
+  text-align: center;
+  font-size: 28rpx;
+  display: inline-block;
+  color: #111;
+  width: 100%;
+}
+
+.download-app .info .image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.download-app .info text {
+  font-size: 48rpx;
+  font-weight: normal;
+  line-height: 100rpx;
+}
+
+.download-app .go {
+  color: #42bd56;
+}

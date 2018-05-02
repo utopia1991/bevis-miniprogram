@@ -1,0 +1,16 @@
+<view class="profile">
+  <view class="bd">
+    <image src="{{user.avatarUrl}}"></image>
+    <view class="detail">
+      <view class="basic-info">
+        <view class="uid">{{user.nickName}}</view>
+        <text class="id">{{user.country}} {{user.province}} {{user.city}}</text>
+        <navigator class="link" to="pages/index/index">返回首页</navigator>
+      </view>
+      <view class="relationship">
+        <text>性别：</text>
+        <text>{{gender}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,80 @@
+.profile {
+  height: 124px;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.5) no-repeat center/cover;
+}
+
+.profile .bd {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.profile image {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 20px 0 0 20px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.profile .detail {
+  height: 100%;
+  margin-left: 106px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.profile .detail .basic-info {
+  position: relative;
+  padding-top: 29px;
+}
+
+.profile .detail .relationship {
+  height:66rpx;
+  line-height:66rpx;
+}
+
+.profile .detail .basic-info .uid {
+  font-size: 19px;
+  line-height: 1;
+}
+
+.profile .detail .basic-info span {
+  display: block;
+}
+
+.profile .detail .basic-info .id {
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.profile .detail .basic-info span {
+  display: block;
+}
+
+.profile .detail .basic-info .link {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 30px 10px 8px 20px;
+}
+
+.profile .detail .basic-info .link:after {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  content: '';
+  background: url(https://img3.doubanio.com/f/talion/2a5778b0e5608c876c3e16b7ea093e358d236c82/pics/card/open.png) no-repeat 0px 5px/20px;
+}
+
+.profile .detail .basic-info:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  display: block;
+  transform: scaleY(0.5);
+  margin-top: 5px;
+}

@@ -1,0 +1,103 @@
+<!-- 最受关注图书｜虚构类 -->
+<view class="section scroll">
+  <view class="scroll-title">
+    <view class="scroll-title-name">最受关注图书｜虚构类</view>
+    <navigator url="{{hot.url}}" class="scroll-more">更多</navigator>
+  </view>
+  <scroll-view class="scroll-view_H hot-scroll" scroll-x>
+    <navigator class="scroll-view-item_H item item__movie" wx:for="{{arr}}" wx:for-item="item" wx:key="" url="{{item.url}}">
+      <image class="item-poster" src="{{item.src}}"></image>
+      <text class="item-title">
+      {{item.title}} {{item.rank}}
+    </text>
+    </navigator>
+  </scroll-view>
+</view>
+
+<!-- 最受关注图书｜非虚构类 -->
+<view class="section scroll">
+  <view class="scroll-title">
+    <view class="scroll-title-name">最受关注图书｜虚构类</view>
+    <navigator url="{{hot.url}}" class="scroll-more">更多</navigator>
+  </view>
+  <scroll-view class="scroll-view_H hot-scroll" scroll-x>
+    <navigator class="scroll-view-item_H item item__movie" wx:for="{{arr2}}" wx:for-item="item" wx:key="" url="{{item.url}}">
+      <image class="item-poster" src="{{item.src}}"></image>
+      <text class="item-title">
+      {{item.title}} {{item.rank}}
+    </text>
+    </navigator>
+  </scroll-view>
+</view>
+
+<!-- 豆瓣书店 -->
+ <view class="section scroll">
+  <view class="scroll-title">
+    <view class="scroll-title-name">豆瓣书店</view>
+    <navigator url="{{hot.url}}" class="scroll-more">更多</navigator>
+  </view>
+  <navigator url="{{hot.url}}" class="hot">
+    <image class="hot-item-poster" src="{{hot.src}}"></image>
+    <view class='hot-item-content'>
+      <view class="hot-item-title">{{hot.title}} {{hot.rank}}</view>
+      <view class="hot-item-desc">{{hot.desc}}</view>
+    </view>
+  </navigator>
+  <scroll-view class="scroll-view_H hot-scroll" scroll-x>
+    <navigator class="scroll-view-item_H item item__movie" wx:for="{{arr}}" wx:for-item="item" wx:key="" url="{{item.url}}">
+      <image class="item-poster" src="{{item.src}}"></image>
+      <text class="item-title">
+      {{item.title}} {{item.rank}}
+    </text>
+    </navigator>
+  </scroll-view>
+</view> 
+
+<!-- 分类浏览 -->
+ <view class="scroll interests">
+  <view class="card-title">
+    发现好图书
+  </view>
+  <scroll-view class="scroll-view_H hot-scroll" scroll-x>
+    <view wx:for="{{interests}}" wx:for-item="item" wx:key="">
+      <navigator class="scroll-view-item_H item-interests" url="{{item[0].url}}" style="border-color:{{item[0].color}};color:{{item[0].color}}">
+        {{item[0].title}}
+      </navigator>
+      <navigator class="scroll-view-item_H item-interests" url="{{item[1].url}}" style="border-color:{{item[1].color}};color:{{item[1].color}}">
+        {{item[1].title}}
+      </navigator>
+      <navigator class="scroll-view-item_H item-interests" url="{{item[2].url}}" style="border-color:{{item[2].color}};color:{{item[2].color}}">
+        {{item[1].title}}
+      </navigator>
+      <navigator class="scroll-view-item_H item-interests" url="{{item[3].url}}" style="border-color:{{item[3].color}};color:{{item[3].color}}">
+        {{item[1].title}}
+      </navigator>
+    </view>
+  </scroll-view>
+</view> 
+
+<!-- 分类浏览 -->
+<view class="card">
+  <view class="card-title">
+    分类浏览
+  </view>
+  <ul class="card-list">
+    <li wx:for="{{link}}" wx:for-item="item" wx:key="">
+      <navigator url="{{item.url}}" class='card-link'>
+        {{item.title}}
+        <view wx:if="{{item.title}}" class='card-arrow'></view>
+      </navigator>
+    </li>
+  </ul>
+</view> 
+
+<!-- 下载app -->
+<view class="download-app">
+  <view class="info">
+    <image class='image' src="{{appLogo}}"></image>
+    <view class="info-content">
+      <text>豆瓣</text>
+    </view>
+  </view>
+  <navigator url="{{hot.url}}" class='go'>去 App Store 免费下载 iOS 客户端</navigator>
+</view> 
