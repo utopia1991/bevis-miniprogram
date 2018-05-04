@@ -79,11 +79,6 @@
   margin-top: 5px;
 }
 
-.collection {
-  font-size: 0;
-  background: #fff;
-}
-
 .collection .item {
   display: inline-block;
   width: 24.99%;

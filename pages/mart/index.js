@@ -1,5 +1,53 @@
 Page({
   data: {
+    product: [
+      {
+        src: 'https://img3.doubanio.com/img/files/file-1522048538-4.jpg',
+        title: '豆瓣收藏夹',
+        desc: '珍藏那些不舍丢弃的照片和票根，给你的回忆一处安放之所。',
+        price: 56,
+        tag: '新品'
+      },
+      {
+        src: 'https://img3.doubanio.com/img/files/file-1524196402-0.jpg',
+        title: '豆瓣线装笔记本',
+        desc: '简单凝练，轻薄便携，书写流畅，不洇不透',
+        price: 18,
+        tag: '新品'
+      }, {
+        src: 'https://img3.doubanio.com/img/files/file-1524194134-0.jpg',
+        title: '豆瓣精品挂耳咖啡-甜橙庄园系列',
+        desc: '甄选COE获奖精品咖啡。花香浓郁，果香四溢，回味甘甜。',
+        price: 56,
+        tag: '新品'
+      }, {
+        src: 'https://img3.doubanio.com/img/files/file-1522048538-5.jpg',
+        title: '豆瓣·电影畅想系列手机壳',
+        desc: '以经典电影为图案灵感，自然元素塑造独特造型，高质量双重材质，保护你的手机。',
+        price: 56,
+        tag: '新品'
+      }, {
+        src: 'https://img3.doubanio.com/img/files/file-1522048538-1.jpg',
+        title: '豆瓣笔记本·遇见你系列',
+        desc: '方格内页，落笔顺畅，不洇不透。愿你在书写中遇见自我。',
+        price: 48,
+        tag: '热卖'
+      }, {
+        src: 'https://img3.doubanio.com/img/files/file-1522048538-2.jpg',
+        title: '豆瓣心茶',
+        desc: '严选优质鲜花与茶叶，精心窨制花茶。万千心意，尽在心茶。',
+        price: 68,
+        tag: '热卖'
+      }
+    ],
+    imgUrls: [
+      'https://img3.doubanio.com/img/files/file-1521684961-1.jpg',
+      'https://img3.doubanio.com/img/files/file-1524712163-1.jpg',
+      'https://img3.doubanio.com/img/files/file-1524881486-0.jpg',
+      'https://img3.doubanio.com/img/files/file-1524122635-0.jpg',
+      'https://img3.doubanio.com/img/files/file-1521684961-1.jpg',
+      'https://img3.doubanio.com/img/files/file-1524712163-1.jpg'
+    ],
     arr: [
       {
         src: 'https://img3.doubanio.com/img/files/file-1524481845-0.jpg',

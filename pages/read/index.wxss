@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  background: #fff;
   white-space: nowrap;
   margin-bottom: 40rpx;
 }
@@ -167,6 +166,7 @@
 }
 
 .item-interests {
+  background: #fff;
   margin: 0 20rpx 20rpx 0;
   font-size: 30rpx;
   display: inline-block;

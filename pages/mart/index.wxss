@@ -1,7 +1,119 @@
+.product {
+  background-color: #fff;
+  width: 100%;
+}
+
+.product-list {
+  width: 96%;
+  margin: 0 auto 40rpx;
+}
+
+.product-list-header {
+  font-size: 30rpx;
+  line-height: 1.4;
+  padding: 20rpx 0rpx;
+  color: #46a68f;
+}
+
+.product-list-content .product-list-item {
+  display: block;
+  padding: 0 30rpx 60rpx;
+}
+
+.product-card .product-card-cover {
+  width: 120px;
+  height: 120px;
+  float: left;
+}
+
+._3kP-rt0_ ._2AmRNPt0 {
+  content: "";
+  margin-top: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+}
+
+.product-list-item ._3kP-rt0_ ._1uN_mkij {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 260rpx;
+}
+
+.product-card .product-card-info {
+  padding-left: 15px;
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card .product-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #494949;
+  margin-bottom: 4px;
+}
+
+.product-card .product-card-desc {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #9a9a9a;
+  white-space: normal;
+}
+
+.product-card .product-card-bottom {
+  margin-top: 5px;
+}
+
+.product-card .product-card-promote {
+  font-size: 15px;
+  line-height: 1.4;
+  color: #f05f50;
+  margin-right: 9px;
+}
+
+.product-card .product-card-promote:before {
+  content: "\A5";
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.product-card .product-card-tags {
+  margin-top: 6px;
+}
+
+.product-card .product-card-tags .product-card-tag {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #fff;
+  display: inline-block;
+  padding: 0 5px;
+  background-color: #46a68f;
+  margin-right: 5px;
+}
+
+.slide {
+  height: 380rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
 .topics .topic-item {
   margin-top: 40rpx;
   margin-bottom: 40rpx;
-  background-color:  #f7f7f7;
+  background-color: #fff;
 }
 
 ._3kP-rt0_ {
@@ -11,7 +123,6 @@
   width: 100%;
   height: 320rpx;
   z-index: 1;
-  background-color: #f7f7f7;
 }
 
 ._3kP-rt0_ ._2AmRNPt0 {

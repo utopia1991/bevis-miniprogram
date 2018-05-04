@@ -11,8 +11,7 @@
     "backgroundTextStyle": "light",
     "navigationBarTitleText": "Bevis 豆瓣",
     "navigationBarTextStyle": "black",
-    "navigationBarBackgroundColor": "#ffffff",
-    "backgroundColor": "#F7F7F7"
+    "navigationBarBackgroundColor": "#F7F7F7"
   },
   "tabBar": {
     "color": "#666",

@@ -1,3 +1,42 @@
+<view class="product">
+  <view class="product-list">
+    <view class="product-list-header">新品首发</view>
+    <ul class="product-list-content">
+      <navigator url="">
+        <view class="product-list-item" wx:for="{{product}}" wx:for-item="item" wx:key="" url="{{item.url}}">
+          <view class='product-card'>
+            <view class="_3kP-rt0_ _37xwNlCe product-card-cover">
+              <i class="_2AmRNPt0"></i>
+              <image class="_1uN_mkij" src="{{item.src}}"></image>
+            </view>
+            <view class="product-card-info">
+              <view class="product-card-title">{{item.title}}</view>
+              <view class="product-card-desc">{{item.desc}}</view>
+              <view class="product-card-bottom">
+                <view class="product-card-price">
+                  <span class="product-card-promote">{{item.price}}</span>
+                </view>
+                <view class="product-card-tags">
+                  <span class="product-card-tag">{{item.tag}}</span>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </ul>
+  </view>
+</view>
+
+<!-- 轮播 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="slide">
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+      <image wx:if="{{item}}" src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
 <view class="topics">
   <ul>
     <navigator url="">

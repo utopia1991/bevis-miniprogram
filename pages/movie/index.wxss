@@ -10,7 +10,8 @@
 }
 
 .tab {
-  width: 100%;
+  width: 96%;
+  margin:20rpx auto 0;
 }
 
 .quick-nav {
@@ -23,7 +24,7 @@
   margin: 2%;
   box-sizing: border-box;
   font-size: 34rpx;
-  background-color: #f6f6f6;
+  background-color: #fff;
   color: #494949;
   display: block;
   text-align: center;
@@ -41,7 +42,6 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  background: #fff;
   white-space: nowrap;
 }
 
@@ -204,6 +204,7 @@
 }
 
 .item-interests {
+  background: #fff;
   margin: 0 20rpx 20rpx 0;
   font-size: 30rpx;
   display: inline-block;
