@@ -1,0 +1,16 @@
+<view class="topics">
+  <ul>
+    <navigator url="">
+      <view class="topic-item" wx:for="{{arr}}" wx:for-item="item" wx:key="" url="{{item.url}}">
+        <view class="_3kP-rt0_">
+          <i class="_2AmRNPt0"></i>
+          <image class="_1uN_mkij" src="{{item.src}}"></image>
+        </view>
+        <view class="topic-content">
+          <view class="topic-title">{{item.title}}</view>
+          <view class="topic-desc">{{item.desc}}</view>
+        </view>
+      </view>
+    </navigator>
+  </ul>
+</view>

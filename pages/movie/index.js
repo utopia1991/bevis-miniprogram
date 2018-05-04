@@ -1,9 +1,9 @@
 Page({
   data: {
     imgUrls: [
-      './images/1.jpg',
-      './images/2.jpg',
-      './images/3.jpg'
+    'https://img3.doubanio.com/view/movie_gallery_frame_hot_rec/normal/public/e201c20fd057543.jpg',
+    'https://img1.doubanio.com/view/movie_gallery_frame_hot_rec/normal/public/6792e09ac20ca49.jpg',
+    'https://img3.doubanio.com/view/movie_gallery_frame_hot_rec/normal/public/b26ab60d3fba8d5.jpg'
     ],
     hot: {
       id: 0,

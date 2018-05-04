@@ -13,7 +13,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.switchTab({
-      url: '../movie/index'
+      url: './movie/index'
     })
   },
   onLoad: function () {

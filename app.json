@@ -4,13 +4,15 @@
     "pages/movie/index",
     "pages/movie/page/darkestHour",
     "pages/read/index",
-    "pages/about/index"
+    "pages/about/index",
+    "pages/mart/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Bevis 豆瓣",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F7F7F7"
   },
   "tabBar": {
     "color": "#666",
@@ -27,6 +29,12 @@
         "iconPath": "static/createtask_fill.png",
         "selectedIconPath": "static/createtask_fill_select.png",
         "text": "读书"
+      },
+      {
+        "pagePath": "pages/mart/index",
+        "iconPath": "static/integral_fill.png",
+        "selectedIconPath": "static/integral_fill_select.png",
+        "text": "市集"
       },
       {
         "pagePath": "pages/about/index",
