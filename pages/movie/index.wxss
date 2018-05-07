@@ -1,11 +1,12 @@
 /* pages/movie/index.wxss */
 
 .slide {
-  height: 240px;
+  height: 400rpx;
   width: 100%;
 }
 
 .slide-image {
+  height: 100%;
   width: 100%;
 }
 
